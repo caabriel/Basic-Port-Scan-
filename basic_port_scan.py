@@ -16,7 +16,7 @@ class PortScan:
 
         def connect_and_scan(self):
                 important_port_list = [21,22,23,25,53,80,110,123,443]
-                list_corespondence = {20:'ftp',22:'ssh',23:'telnet',25:'smtp',53:'udpdns',80:'http',110:'pop3',123:'ntp',443:'htt$
+                list_corespondence = {20:'ftp',22:'ssh',23:'telnet',25:'smtp',53:'udpdns',80:'http',110:'pop3',123:'ntp',443:'https'}
                 print('PORTA STATE   SERVICE')
 
                 for porta in important_port_list: 
